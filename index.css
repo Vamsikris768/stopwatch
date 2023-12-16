@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+
+body{
+    background-color: #edeaff;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(background.png);
+    background-size:cover ;
+    background-position:center ;
+}
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(background.png);
+    background-size:cover ;
+    background-position:center ;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    margin: 200px auto 0;
+}
+.stopwatch span{
+    margin-top: 60px;
+    box-shadow: 1px 2px 2px 3px #888888;
+    font-size: 64px;
+    font-weight:300;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.buttons img{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.buttons img:nth-child(2){
+    width: 80px;
+}
+table{
+    margin-top: 2rem;
+    border: 1px solid #ddd;
+}
+th{
+    color: white;
+    text-align: center;
+    border: 2px;
+}
+tbody{
+    color: white;
+    text-align: center;
+    border: 2px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 7px;
+  }
+  
+  tr:nth-child(even){
+    background-color: #f2f2f2;
+    color: green;
+}
